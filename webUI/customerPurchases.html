@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Avoid Counterfeiting Using Blockchain</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Trirong' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Inline CSS styling for webpage -->
+	<style>
+    body {
+            background-color: rgb(96, 89, 146);
+            background-image: url('blockchain.jpg');
+            font-family: 'Trirong', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #366e94;
+            padding: 15px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .navbar-brand {
+            font-size: 36px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fdfdfd;
+            letter-spacing: 1px;
+        }
+
+        .navbar-nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .nav-item {
+            display: inline-block;
+        }
+
+        .nav-link {
+            font-size: 20px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+            padding: 15px 20px;
+            background-color: #305d80;
+            border-radius: 5px;
+        }
+
+        .nav-link:hover {
+            color: #00ffe1;
+        }
+
+        .ftco-section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #366e94;
+            padding: 15px;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .form-group {
+            text-align: left;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px;
+            border: 5px solid #872c7a;
+            border-radius: 5px;
+            margin-top: 8px;
+        }
+
+        .btn-register {
+            margin-top: 15px;
+            background-color: #d3640f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-register:hover {
+            background-color: rgb(6, 173, 106);
+        }
+
+        .qr-code {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        #imgQR {
+            max-width: 200px;
+        }
+
+        #download {
+            margin-top: 10px;
+            background-color: #ffa500;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #download:hover {
+            background-color: #f90;
+        }
+    </style>
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container-fluid px-md-5">
+			<div class="row justify-content-between">
+				<div class="col-md-8 order-md-last">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<a class="navbar-brand" href="index.html">Unmasking Counterfeiting Products Using Blockchain</a>
+						</div>
+						<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
+							<form action="#" class="searchform order-lg-last">
+			          
+			        </form>
+						</div>
+					</div>
+				</div>
+                <br><br>
+				<div class="col-md-4 d-flex">
+					<div class="social-media">
+		    		
+	        </div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container-fluid">
+	    
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav m-auto">
+	        	<li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="customer.html" class="nav-link">CUSTOMER</a></li>
+			  	<li class="nav-item "><a href="manufacturer.html" class="nav-link">MANUFACTURER</a></li>
+	        	<li class="nav-item"><a href="retailer.html" class="nav-link">RETAILER</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	
+      <!-- Section for fetching customer's product purchase history -->
+      <section>
+        <div class="container">
+            <h2>CUSTOMER PRODUCT PURCHASE HISTORY</h2>
+       
+              <div class="form-group">
+                <label for="customerCode">Customer Code</label>
+                <input type="text" class="form-control" id="customerCode" placeholder="Enter Customer Code" name="customerCode">
+              </div>
+              <br>
+              <button type="submit" class="btn btn-warning btn-register" id="register">Get Products</button>
+          </div>
+    </section>
+
+
+	</section>
+
+    <!-- Section for showing products purchased by the customer -->
+    <section>
+        <div class="container">
+            <h2>Products Purchased By Customer</h2>
+        <center>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>|Product Serial Number|</th>
+                    
+                        <th>|Retailer Code|</th>
+                    
+                        <th>|Manufacturer Code|</th>
+                    </tr>
+                </thead>
+                <tbody id="logdata">
+
+                </tbody>
+            </table>
+            </center>
+            <center><p>USER ADDRESS <b id="add"></b></p></center>
+        </div>
+    </section>
+
+<!-- JavaScript libraries used -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="javaScr/popper.js"></script>
+  <script src="javaScr/bootstrap.min.js"></script>
+  <script src="javaScr/main.js"></script>
+  <script src="javaScr/web3.min.js"></script>
+  <script src="javaScr/truffle-contract.js"></script>
+  <script src="javaScr/customerPurchases.js"></script>
+  </body>
+</html>
+
+
+
+

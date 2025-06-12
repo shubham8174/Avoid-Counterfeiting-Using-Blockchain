@@ -1,0 +1,19 @@
+{
+    "name": "avoid-counterfeiting-using-blockchain",
+    "description": "project on fighting counterfeiting products using blockchain",
+    "main": "index.js",
+    "scripts": {
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "html5-qrcode": "^2.2.0",
+        "lite-server": "2.6"
+    },
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^2.0.15",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "pg": "^8.11.2"
+    }
+}

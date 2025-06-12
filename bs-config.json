@@ -1,0 +1,5 @@
+{
+	"server": {
+		"baseDir": ["./webUI","./build/contracts"]
+	}
+}
