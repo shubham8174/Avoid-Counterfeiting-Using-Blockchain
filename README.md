@@ -5,7 +5,7 @@
 ![Truffle](https://img.shields.io/badge/Truffle-Framework-5E464D?style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Frontend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![QR Code](https://img.shields.io/badge/QR--Code-Verification-009688?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 
 > MSc Cyber Security Dissertation Project — University of Southampton 🎓
 > A decentralised product authentication system that uses Ethereum smart contracts and QR code scanning to detect and prevent counterfeit goods in supply chains.
@@ -286,14 +286,9 @@ This project demonstrates several blockchain security principles:
 MSc Cyber Security — University of Southampton 🇬🇧
 Information Security Analyst | Blockchain Developer | Smart Contract Security
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/shubhamsingh99)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/shubham-singh99/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/shubham8174)
 
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute with attribution.
 
 ---
 
